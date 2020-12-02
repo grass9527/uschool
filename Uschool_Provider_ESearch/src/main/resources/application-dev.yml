@@ -1,0 +1,9 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: Hello
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://10.8.163.3:8848/ #注册中心的地址
